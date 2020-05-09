@@ -21,7 +21,7 @@ jobs:
       with:
         java-version: 1.8
     - name: getsource
-      run: git clone --recursive git@github.com:ReplayMod/ReplayMod.git replaymod
+      run: git clone --recursive https://github.com/ReplayMod/ReplayMod.git replaymod
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
