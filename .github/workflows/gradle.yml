@@ -30,4 +30,5 @@ jobs:
     - name: upload jar
       uses: actions/upload-artifact@master
       with:
+        name: mods
         path: replaymod/versions/1.15.2/build/libs
