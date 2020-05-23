@@ -21,7 +21,7 @@ jobs:
       with:
         java-version: 1.8
     - name: getsource
-      run: git clone --recursive -b fabric_1.15.2 git@github.com:maruohon/litematica.git litematica
+      run: git clone --recursive -b fabric_1.15.2 https://github.com/maruohon/litematica.git litematica
     - name: Build with Gradle
       run: |
         cd litematica
